@@ -1,0 +1,456 @@
+{
+  "version": "1.16.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "cdkworkshop": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-1",
+      "properties": {
+        "templateFile": "cdkworkshop.template.json"
+      },
+      "metadata": {
+        "/cdkworkshop": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4",
+              "id": "1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4",
+              "packaging": "zip",
+              "sourceHash": "1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4",
+              "s3BucketParameter": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4S3Bucket40298151",
+              "s3KeyParameter": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4S3VersionKeyE9A57A81",
+              "artifactHashParameter": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4ArtifactHashDC1807A1"
+            },
+            "trace": [
+              "Stack.addFileAsset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/stack.js:352:23)",
+              "new Asset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-iam/lib/role.js:36:22)",
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:59:35)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:69:26)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4S3Bucket40298151",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:11:36)",
+              "Stack.addFileAsset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/stack.js:342:22)",
+              "new Asset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4S3VersionKeyE9A57A81",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:15:35)",
+              "Stack.addFileAsset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/stack.js:342:22)",
+              "new Asset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/AssetParameters/1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters1d90e708d80d6132baef740db68cb8ba59025f9e669f9d951e024e46fc1791a4ArtifactHashDC1807A1",
+            "trace": [
+              "new FileAssetParameters (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:19:38)",
+              "Stack.addFileAsset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/core/lib/stack.js:342:22)",
+              "new Asset (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:30:32)",
+              "AssetCode.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/code.js:135:26)",
+              "new Function (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function.js:67:33)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:28:26)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DAdd8a7e35b2831c2f10466e03f19a62ad",
+            "trace": [
+              "new Deployment (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:39:25)",
+              "LambdaRestApi.configureDeployment (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:184:38)",
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:27:26)",
+              "LambdaRestApi.configureDeployment (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:192:36)",
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi.configureDeployment (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:196:13)",
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:42:14)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-iam/lib/role.js:36:22)",
+              "LambdaRestApi.configureCloudWatchRole (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:205:22)",
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:45:18)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi.configureCloudWatchRole (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:209:26)",
+              "new RestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:45:18)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:170:26)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:204:9)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/ApiPermission.cdkworkshopEndpointBFC3A9DC.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissioncdkworkshopEndpointBFC3A9DCANYproxy8912C483",
+            "trace": [
+              "Function.addPermission (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:22:9)",
+              "LambdaIntegration.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:88:21)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:83:29)",
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:40:31)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:224:22)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.cdkworkshopEndpointBFC3A9DC.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionTestcdkworkshopEndpointBFC3A9DCANYproxyED76C669",
+            "trace": [
+              "Function.addPermission (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:22:9)",
+              "LambdaIntegration.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:37:26)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:88:21)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:83:29)",
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:40:31)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:224:22)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:45:26)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:224:22)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/ApiPermission.cdkworkshopEndpointBFC3A9DC.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissioncdkworkshopEndpointBFC3A9DCANY43DD0A14",
+            "trace": [
+              "Function.addPermission (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:22:9)",
+              "LambdaIntegration.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:88:21)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:83:29)",
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:40:31)",
+              "RootResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:221:37)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/ApiPermission.Test.cdkworkshopEndpointBFC3A9DC.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionTestcdkworkshopEndpointBFC3A9DCANY2962C18A",
+            "trace": [
+              "Function.addPermission (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:22:9)",
+              "LambdaIntegration.bind (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:37:26)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:88:21)",
+              "Method.renderIntegration (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:83:29)",
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:40:31)",
+              "RootResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:221:37)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/cdkworkshop/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/method.js:45:26)",
+              "RootResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:17:16)",
+              "ProxyResource.addMethod (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:221:37)",
+              "new ProxyResource (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:212:35)",
+              "RootResource.addProxy (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:20:16)",
+              "new LambdaRestApi (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-34ZapK/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:23:23)",
+              "/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:49",
+              "Kernel._wrapSandboxCode (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8222:20)",
+              "Kernel._create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7762:26)",
+              "Kernel.create (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7509:21)",
+              "KernelHost.processRequest (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7296:28)",
+              "KernelHost.run (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7236:14)",
+              "Immediate._onImmediate (/Users/vincentbloise/cdkworkshop/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7239:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "1.21.1",
+      "@aws-cdk/core": "1.21.1",
+      "@aws-cdk/region-info": "1.21.1",
+      "@aws-cdk/aws-iam": "1.21.1",
+      "@aws-cdk/aws-cloudwatch": "1.21.1",
+      "@aws-cdk/aws-kms": "1.21.1",
+      "@aws-cdk/aws-ssm": "1.21.1",
+      "@aws-cdk/aws-ec2": "1.21.1",
+      "@aws-cdk/aws-events": "1.21.1",
+      "@aws-cdk/aws-logs": "1.21.1",
+      "@aws-cdk/aws-s3": "1.21.1",
+      "@aws-cdk/assets": "1.21.1",
+      "@aws-cdk/aws-s3-assets": "1.21.1",
+      "@aws-cdk/aws-sqs": "1.21.1",
+      "@aws-cdk/aws-lambda": "1.21.1",
+      "@aws-cdk/aws-sns": "1.21.1",
+      "@aws-cdk/aws-cloudformation": "1.21.1",
+      "@aws-cdk/aws-route53": "1.21.1",
+      "@aws-cdk/aws-certificatemanager": "1.21.1",
+      "@aws-cdk/aws-elasticloadbalancingv2": "1.21.1",
+      "@aws-cdk/aws-apigateway": "1.21.1",
+      "jsii-runtime": "Python/3.7.6"
+    }
+  }
+}
